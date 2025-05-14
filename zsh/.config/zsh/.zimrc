@@ -14,7 +14,7 @@ zmodule zsh-users/zsh-completions --fpath src
 zmodule completion
 
 # <<<<< Themes >>>>>
-zmodule gitster
+zmodule minimal
 
 # <<<<< Plugins >>>>>
 zmodule marlonrichert/zsh-autocomplete
