@@ -1,0 +1,23 @@
+# <<<<< Modules >>>>>
+zmodule environment
+zmodule input
+zmodule utility
+
+# <<<<< Prompt >>>>>
+zmodule duration-info
+zmodule git-info
+zmodule asciiship
+zmodule prompt-pwd
+
+# <<<<< Completion >>>>>
+zmodule zsh-users/zsh-completions --fpath src
+zmodule completion
+
+# <<<<< Themes >>>>>
+zmodule gitster
+
+# <<<<< Plugins >>>>>
+zmodule marlonrichert/zsh-autocomplete
+zmodule agkozak/zsh-z
+zmodule zsh-users/zsh-syntax-highlighting
+zmodule zsh-users/zsh-autosuggestions

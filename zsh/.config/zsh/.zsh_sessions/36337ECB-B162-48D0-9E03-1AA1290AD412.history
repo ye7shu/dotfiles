@@ -1,0 +1,10 @@
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo >> /Users/ye7shu/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ye7shu/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew help
+clear
+brew install --cask mos
+brew install --cask betterdisplay
+brew install --cask alt-tab
+clear
