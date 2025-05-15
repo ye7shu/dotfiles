@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/ye7shu/main/temp/zimfw/src/templates'
+let g:netrw_dirhist_5='/Users/ye7shu/main/temp/zimfw/src'
+let g:netrw_dirhist_4='/Users/ye7shu/main/temp/zimfw/src/functions'
+let g:netrw_dirhist_3='/Users/ye7shu/main/temp/zimfw/src'
 let g:netrw_dirhist_2='/Users/ye7shu/dotfiles/zsh/.config/zsh'
 let g:netrw_dirhist_1='/Users/ye7shu/.config/fish/conf.d'
