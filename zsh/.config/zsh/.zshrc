@@ -13,8 +13,10 @@ figlet -f "lean" Welcome
 alias cls="clear"
 
 
+# ╭────────────────────────────────────────────────────────────╮
+# │                          Zim Init                          │
+# ╰────────────────────────────────────────────────────────────╯
 
-# <<<<< ZIM INIT >>>>>
 ZIM_HOME=~/.zim
 # Install missing modules and update ${ZIM_HOME}/init.zsh if missing or outdated.
 if [[ ! ${ZIM_HOME}/init.zsh -nt ${ZIM_CONFIG_FILE:-${ZDOTDIR:-${HOME}}/.zimrc} ]]; then
@@ -22,3 +24,10 @@ if [[ ! ${ZIM_HOME}/init.zsh -nt ${ZIM_CONFIG_FILE:-${ZDOTDIR:-${HOME}}/.zimrc} 
 fi
 # Initialize modules.
 source ${ZIM_HOME}/init.zsh
+
+
+# ╭────────────────────────────────────────────────────────────╮
+# │                          Starship                          │
+# ╰────────────────────────────────────────────────────────────╯
+
+eval "$(starship init zsh)"
