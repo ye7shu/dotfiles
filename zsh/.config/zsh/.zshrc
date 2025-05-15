@@ -30,4 +30,4 @@ source ${ZIM_HOME}/init.zsh
 # │                          Starship                          │
 # ╰────────────────────────────────────────────────────────────╯
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
