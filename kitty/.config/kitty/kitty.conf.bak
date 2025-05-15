@@ -1,0 +1,13 @@
+include themes/3024_Day.conf
+# font_family		SF Mono
+font_size		16
+
+
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="Monaco"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
