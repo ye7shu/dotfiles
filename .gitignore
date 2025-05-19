@@ -2,3 +2,5 @@
 .zcompdump
 .zcompdump.dat
 .zcompdump.zwc
+kitty.conf.bak
+.zsh_sessions/

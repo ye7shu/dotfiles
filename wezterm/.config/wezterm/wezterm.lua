@@ -14,12 +14,12 @@ local config = wezterm.config_builder()
 -- ╭────────────────────────────────────────────────────────────╮
 -- │                            Color                           │
 -- ╰────────────────────────────────────────────────────────────╯
-config.color_scheme = 'Catppuccin Macchiato'
+config.color_scheme = 'Catppuccin Latte'
 
 -- ╭────────────────────────────────────────────────────────────╮
 -- │                            Font                            │
 -- ╰────────────────────────────────────────────────────────────╯
-config.font = wezterm.font 'SF Mono'
+config.font = wezterm.font 'Maple Mono NF'
 config.font_size = 16
 
 

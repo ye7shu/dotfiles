@@ -2,7 +2,7 @@
 # │                          Greeting                          │
 # ╰────────────────────────────────────────────────────────────╯
 
-figlet -f "lean" Welcome
+figlet -f "standard" Welcome
 
 
 
